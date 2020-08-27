@@ -172,7 +172,5 @@ def get_sorted_recommendations(list):
     #print(sorted(new_dict, reverse=True))
     return [i[0] for i in sorted(new_dict.items(), key=lambda item: (item[1], item[0]), reverse=True)]
 
-    
-
 # some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
 # get_sorted_recommendations(["Bridesmaids", "Sherlock Holmes"])

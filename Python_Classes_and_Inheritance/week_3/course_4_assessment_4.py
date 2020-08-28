@@ -49,8 +49,8 @@ for num in lst:
     except Exception:
         lst_three = lst_three
         
-5.-Write code so that the buggy code provided works using a try/except. When the codes does 
- not work in the try, have it append to the list attempt the string “Error”
+#5.-Write code so that the buggy code provided works using a try/except. When the codes does 
+ #not work in the try, have it append to the list attempt the string “Error”
 
 full_lst = ["ab", 'cde', 'fgh', 'i', 'jkml', 'nop', 'qr', 's', 'tv', 'wxy', 'z']
 
@@ -62,9 +62,9 @@ for elem in full_lst:
     except Exception:
         attempt.append("Error")
         
-6.-The following code tries to append the third element of each list in conts to the new list 
-third_countries. Currently, the code does not work. Add a try/except clause so the code runs 
-without errors, and the string ‘Continent does not have 3 countries’ is appended to countries instead of producing an error.
+#6.-The following code tries to append the third element of each list in conts to the new list 
+#third_countries. Currently, the code does not work. Add a try/except clause so the code runs 
+#without errors, and the string ‘Continent does not have 3 countries’ is appended to countries instead of producing an error.
 
 conts = [['Spain', 'France', 'Greece', 'Portugal', 'Romania', 'Germany'], ['USA', 'Mexico', 'Canada'], ['Japan', 'China', 'Korea', 'Vietnam', 'Cambodia'], ['Argentina', 'Chile', 'Brazil', 'Ecuador', 'Uruguay', 'Venezuela'], ['Australia'], ['Zimbabwe', 'Morocco', 'Kenya', 'Ethiopa', 'South Africa'], ['Antarctica']]
 
@@ -76,8 +76,8 @@ for c in conts:
     except Exception:
         third_countries.append('Continent does not have 3 countries')
 
-7.-The buggy code below prints out the value of the sport in the list sport. Use try/except so 
-that the code will run properly. If the sport is not in the dictionary, ppl_play, add it in with the value of 1.
+#7.-The buggy code below prints out the value of the sport in the list sport. Use try/except so 
+#that the code will run properly. If the sport is not in the dictionary, ppl_play, add it in with the value of 1.
 
 sport = ["hockey", "basketball", "soccer", "tennis", "football", "baseball"]
 

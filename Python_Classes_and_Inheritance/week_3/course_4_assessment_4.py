@@ -39,7 +39,7 @@ for number in numb:
     except Exception:
         remainder.append("Error")
  
-# 4.-Provided is buggy code, insert a try/except so that the code passes.
+#4.-Provided is buggy code, insert a try/except so that the code passes.
  lst = [2,4,10,42,12,0,4,7,21,4,83,8,5,6,8,234,5,6,523,42,34,0,234,1,435,465,56,7,3,43,23]
 
 lst_three = []
@@ -52,7 +52,7 @@ for num in lst:
         lst_three = lst_three
         
 #5.-Write code so that the buggy code provided works using a try/except. When the codes does 
- #not work in the try, have it append to the list attempt the string “Error”
+#not work in the try, have it append to the list attempt the string “Error”
 
 full_lst = ["ab", 'cde', 'fgh', 'i', 'jkml', 'nop', 'qr', 's', 'tv', 'wxy', 'z']
 

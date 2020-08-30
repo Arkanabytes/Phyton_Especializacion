@@ -50,7 +50,8 @@ def checkingIfIn(a, direction = True, d = {'apple': 2, 'pear': 1, 'fruit': 19, '
         else:
             return False
 
-#We have provided the function checkingIfIn such that if the first input parameter is in the third, dictionary, input parameter, then the function returns that value, and otherwise, it returns False. Follow the instructions in the active code window for specific variable assignmemts.
+#We have provided the function checkingIfIn such that if the first input parameter is in the third, dictionary, input parameter, then the function returns that value,
+#and otherwise, it returns False. Follow the instructions in the active code window for specific variable assignmemts.
 def checkingIfIn(a, direction = True, d = {'apple': 2, 'pear': 1, 'fruit': 19, 'orange': 5, 'banana': 3, 'grapes': 2, 'watermelon': 7}):
     if direction == True:
         if a in d:

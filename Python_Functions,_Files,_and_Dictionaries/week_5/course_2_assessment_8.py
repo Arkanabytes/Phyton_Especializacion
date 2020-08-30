@@ -48,7 +48,7 @@ last_four(ids)
 sorted_ids = sorted(ids, key=last_four )
 print(sorted_ids)
 
-#$Sort the list ids by the last four digits of each id. Do this using lambda and not using a defined function. Save this sorted list in the variable sorted_id.
+#Sort the list ids by the last four digits of each id. Do this using lambda and not using a defined function. Save this sorted list in the variable sorted_id.
 
 ids = [17573005, 17572342, 17579000, 17570002, 17572345, 17579329]
 
@@ -56,6 +56,5 @@ sorted_id = sorted(ids, key=lambda x: str(x)[-4:])
 
 #
 ex_lst = ['hi', 'how are you', 'bye', 'apple', 'zebra', 'dance']
-
 lambda_sort = sorted(ex_lst, key = lambda x: x[1])
 print(lambda_sort)

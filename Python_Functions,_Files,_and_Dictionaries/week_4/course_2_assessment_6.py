@@ -42,7 +42,9 @@ def sublist(list):
    return list[0:i]
 print(sublist(['mujju','salman','yo','STOP']))
 
-#Write a function called stop_at_z that iterates through a list of strings. Using a while loop, append each string to a new list until the string that appears is “z”. The function should return the new list.
+#Write a function called stop_at_z that iterates through a list of strings. Using a while loop, append each string to a new list until the string that appears is “z”.
+#The function should return the new list.
+
 def stop_at_z(list):
    i = 0
    while i < len(list):
@@ -53,7 +55,8 @@ def stop_at_z(list):
    return list[0:i]
 print(stop_at_z(['a','b','c','z']))
 
-#Below is a for loop that works. Underneath the for loop, rewrite the problem so that it does the same thing, but using a while loop instead of a for loop. Assign the accumulated total in the while loop code to the variable sum2. Once complete, sum2 should equal sum1.
+#Below is a for loop that works. Underneath the for loop, rewrite the problem so that it does the same thing, but using a while loop instead of a for loop. Assign the 
+#accumulated total in the while loop code to the variable sum2. Once complete, sum2 should equal sum1.
 
 sum1 = 0
 sum2 = 0

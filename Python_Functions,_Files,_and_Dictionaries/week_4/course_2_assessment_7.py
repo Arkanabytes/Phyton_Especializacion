@@ -1,6 +1,8 @@
 #Arkanabytes
 
-#Create a function called mult that has two parameters, the first is required and should be an integer, the second is an optional parameter that can either be a number or a string but whose default is 6. The function should return the first parameter multiplied by the second.
+#Create a function called mult that has two parameters, the first is required and should be an integer, the second is an optional parameter that can either be a 
+#number or a string but whose default is 6. The function should return the first parameter multiplied by the second.
+
 lol = 6
 def mult(x,y = lol):
         
@@ -16,12 +18,16 @@ print(greeting("Bob"))
 print(greeting(""))
 print(greeting("Bob", excl="!!!"))
 
-#Below is a function, sum, that does not work. Change the function definition so the code works. The function should still have a required parameter, intx, and an optional parameter, intz with a defualt value of 5.
+#Below is a function, sum, that does not work. Change the function definition so the code works. The function should still have a required parameter, intx, and an 
+#optional parameter, intz with a defualt value of 5.
 
 def sum(intx, intz=5):
     return intz + intx
 
-#Write a function, test, that takes in three parameters: a required integer, an optional boolean whose default value is True, and an optional dictionary, called dict1, whose default value is {2:3, 4:5, 6:8}. If the boolean parameter is True, the function should test to see if the integer is a key in the dictionary. The value of that key should then be returned. If the boolean parameter is False, return the boolean value “False”.
+#Write a function, test, that takes in three parameters: a required integer, an optional boolean whose default value is True, and an optional dictionary, 
+#called dict1, whose default value is {2:3, 4:5, 6:8}. If the boolean parameter is True, the function should test to see if the integer is a key in the dictionary.
+#The value of that key should then be returned. If the boolean parameter is False, return the boolean value “False”.
+
 def test(x, abool = True, dict1 = {2:3, 4:5, 6:8}):
     return abool and dict1.get(x)
 

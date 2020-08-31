@@ -20,8 +20,7 @@ four = 4 in lst[1]
 #Test to see if 'orange' is in the first element of lst. Save to variable ``orange``
 orange = 'orange' in lst[0]
  
-# 3. Below, we’ve provided a list of lists. Use in statements to create variables with Boolean values
-# see the ActiveCode window for further directions.
+# 3. Below, we’ve provided a list of lists. Use in statements to create variables with Boolean values see the ActiveCode window for further directions.
  
 L = [[5, 8, 7], ['hello', 'hi', 'hola'], [6.6, 1.54, 3.99], ['small', 'large']]
  

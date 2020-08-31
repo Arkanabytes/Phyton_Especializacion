@@ -59,7 +59,6 @@ def writeInDataFile(resultingDataFile):
         resultingDataFile.write("{}, {}, {}, {}, {}".format(listTD[1], listTD[2], get_pos(listTD[0]), get_neg(listTD[0]), (get_pos(listTD[0])-get_neg(listTD[0]))))    
         resultingDataFile.write("\n")
 
-        
 
 writeInDataFile(resultingDataFile)
 projectTwitterDataFile.close()

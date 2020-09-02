@@ -169,7 +169,6 @@ def strip_punctuation(strWord):
         strWord = strWord.replace(charPunct, "")
     return strWord
 
-
 def writeInDataFile(resultingDataFile):
     resultingDataFile.write("Number of Retweets, Number of Replies, Positive Score, Negative Score, Net Score")
     resultingDataFile.write("\n")

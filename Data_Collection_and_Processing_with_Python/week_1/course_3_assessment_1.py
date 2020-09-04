@@ -58,8 +58,7 @@ if 'physics' in nested:
 else:
     physics = False
  
-# 5. The variable nested_d contains a nested dictionary with the gold medal counts
-# for the top four countries in the past three Olympics.
+# 5. The variable nested_d contains a nested dictionary with the gold medal counts for the top four countries in the past three Olympics.
 # Assign the value of Great Britain’s gold medal count from the London Olympics to the variable london_gold.
 # Use indexing. Do not hardcode.
  

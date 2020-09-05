@@ -18,7 +18,6 @@ get_movies_from_tastedive('Sherlock Holmes')
 import requests_with_caching
 import json
 
-
 def get_movies_from_tastedive(title):
     endpoint = 'https://tastedive.com/api/similar'
     param = {}

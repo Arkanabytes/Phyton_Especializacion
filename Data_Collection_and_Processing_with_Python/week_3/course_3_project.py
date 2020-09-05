@@ -61,7 +61,6 @@ def get_related_titles(movie_list):
         li.extend(extract_movie_titles(get_movies_from_tastedive(movie)))
     return list(set(li))
 
-
 get_related_titles(["Black Panther", "Captain Marvel"])
 
 ##Your next task will be to fetch data from OMDB. The documentation for the API is at https://www.omdbapi.com/

@@ -64,7 +64,6 @@ resultingDataFile.close()
 
 ###############################################
 
-
 punctuation_chars = ["'", '"', ",", ".", "!", ":", ";", '#', '@']
 # list of positive words to use
 positive_words = []

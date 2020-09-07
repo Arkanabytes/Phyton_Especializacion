@@ -67,6 +67,7 @@ def checkingIfIn(a, direction = True, d = {'apple': 2, 'pear': 1, 'fruit': 19, '
 
 # Call the function so that it returns False and assign that function call to the variable c_false
 c_false = checkingIfIn('peas')
+
 # Call the fucntion so that it returns True and assign it to the variable c_true
 c_true = checkingIfIn('apples', False, {'carrots': 1, 'peas': 9, 'potatos': 8, 'corn': 32, 'beans': 1})
 # Call the function so that the value of fruit is assigned to the variable fruit_ans

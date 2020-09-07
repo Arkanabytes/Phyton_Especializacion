@@ -88,7 +88,6 @@ def strip_punctuation(strWord):
 
     ##################################
 
-
 punctuation_chars = ["'", '"', ",", ".", "!", ":", ";", '#', '@']
 
 negative_words = []

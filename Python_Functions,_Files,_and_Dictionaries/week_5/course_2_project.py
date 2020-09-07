@@ -28,8 +28,7 @@ with open("negative_words.txt") as pos_f:
     for lin in pos_f:
         if lin[0] != ';' and lin[0] != '\n':
             negative_words.append(lin.strip())
-
-            
+     
 def get_neg(strSentences):
     strSentences = strip_punctuation(strSentences)
     listStrSentences = strSentences.split()

@@ -106,8 +106,7 @@ def get_neg(strSentences):
             if word == negativeWord:
                 count+=1
     return count
-
-    
+   
 def strip_punctuation(strWord):
     for charPunct in punctuation_chars:
         strWord = strWord.replace(charPunct, "")

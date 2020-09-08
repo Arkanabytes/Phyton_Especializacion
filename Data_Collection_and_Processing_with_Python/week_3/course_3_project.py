@@ -28,7 +28,6 @@ def get_movies_from_tastedive(title):
     this_page_cache = requests_with_caching.get(endpoint, params=param)
     return json.loads(this_page_cache.text)
 
-
 def extract_movie_titles(dic):
     return ([i['Name'] for i in dic['Similar']['Results']])
 

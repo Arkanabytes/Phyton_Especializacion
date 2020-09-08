@@ -53,7 +53,6 @@ def get_movies_from_tastedive(title):
 def extract_movie_titles(dic):
     return ([i['Name'] for i in dic['Similar']['Results']])
 
-
 def get_related_titles(movie_list):
     li = []
     for movie in movie_list:

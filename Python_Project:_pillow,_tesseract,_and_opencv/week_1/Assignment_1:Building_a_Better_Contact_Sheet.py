@@ -21,6 +21,7 @@ for i in range(3):
         lables.append('channel {} intensity {}'.format(i,j))
         images.append(getback)
 txt_font = ImageFont.truetype("readonly/fanwood-webfont.ttf",75)
+
 # create a contact sheet from different brightnesses
 first_image=images[0]
 contact_sheet=PIL.Image.new(first_image.mode, (first_image.width*3,first_image.height*3+75*3))

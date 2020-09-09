@@ -1,4 +1,5 @@
 #Arkanabytes
+
 VOWEL_COST = 250
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 VOWELS = 'AEIOU'
@@ -18,7 +19,8 @@ class WOFPlayer():
     def __str__(self):
         state = self.name + " ($" + str(self.prizeMoney) + ")"
         return state
-# Write the WOFHumanPlayer class definition (part B) here
+
+    # Write the WOFHumanPlayer class definition (part B) here
 class WOFHumanPlayer(WOFPlayer):
     def getMove(category, obscuredPhrase, guessed):
         str = input(self.name + "has $"+ str(self.prizeMoney)+ "/n" + ", Category:" + category + "/n" + ", Phrases:" + "/n" + obscuredPhrase + "/n" + ", Guessed:" + guessed + "/n" + "Guess a letter, phrase, or type 'exit' or 'pass':") 

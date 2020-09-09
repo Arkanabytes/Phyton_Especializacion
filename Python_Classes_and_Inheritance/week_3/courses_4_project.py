@@ -25,7 +25,8 @@ class WOFHumanPlayer(WOFPlayer):
     def getMove(category, obscuredPhrase, guessed):
         str = input(self.name + "has $"+ str(self.prizeMoney)+ "/n" + ", Category:" + category + "/n" + ", Phrases:" + "/n" + obscuredPhrase + "/n" + ", Guessed:" + guessed + "/n" + "Guess a letter, phrase, or type 'exit' or 'pass':") 
         print(str)
-# Write the WOFComputerPlayer class definition (part C) here
+
+   # Write the WOFComputerPlayer class definition (part C) here
 class WOFComputerPlayer(WOFPlayer):
     SORTED_FREQUENCIES = 'ZQXJKVBPYGFWMUCLDRHSNIOATE'
     prizemoney = 0

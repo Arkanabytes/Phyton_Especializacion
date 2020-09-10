@@ -73,5 +73,6 @@ c_true = checkingIfIn('apples', False, {'carrots': 1, 'peas': 9, 'potatos': 8, '
 
 # Call the function so that the value of fruit is assigned to the variable fruit_ans
 fruit_ans= checkingIfIn('fruit')
+
 # Call the function using the first and third parameter so that the value 8 is assigned to the variable param_check
 param_check = checkingIfIn('potatos', False, {'carrots': 1, 'peas': 9, 'potatos': 8, 'corn': 32, 'beans': 1})

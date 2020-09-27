@@ -23,7 +23,6 @@ L = [[5, 8, 7], ['hello', 'hi', 'hola'], [6.6, 1.54, 3.99], ['small', 'large']]
 test1 = 'hola' in L
 
 # Test if [5, 8, 7] is in the list L. Save to variable name test2
-
 test2 = [5, 8, 7] in L
 # Test if 6.6 is in the third element of list L. Save to variable name test3
 test3 = 6.6 in L[2]

@@ -34,7 +34,6 @@ print(same_letter_count)
 #HINT 2: the in operator checks whether a substring is present in a string.
 
 #Hard-coded answers will receive no credit.#
-
 items = ["whirring", "wow!", "calendar", "wry", "glass", "", "llama","tumultuous","owing"]
 acc_num = 0
 for i in items:

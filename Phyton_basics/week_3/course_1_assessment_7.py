@@ -54,9 +54,6 @@ print(acc_num)
 # HINT 2: You can either use or or elif.
 
 # Hard-coded answers will receive no credit.
-
-
-
 sentence = "python is a high level general purpose programming language that can be applied to many different classes of problems."
 words = sentence.split()
 num_a_or_e = 0

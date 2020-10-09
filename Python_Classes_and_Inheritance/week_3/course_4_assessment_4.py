@@ -51,6 +51,7 @@ for num in lst:
     except Exception:
         lst_three = lst_three
         
+
 #5.-Write code so that the buggy code provided works using a try/except. When the codes does 
 #not work in the try, have it append to the list attempt the string “Error”
 

@@ -77,6 +77,7 @@ for c in conts:
     except Exception:
         third_countries.append('Continent does not have 3 countries')
 
+
 #7.-The buggy code below prints out the value of the sport in the list sport. Use try/except so 
 #that the code will run properly. If the sport is not in the dictionary, ppl_play, add it in with the value of 1.
 sport = ["hockey", "basketball", "soccer", "tennis", "football", "baseball"]

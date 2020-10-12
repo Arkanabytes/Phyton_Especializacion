@@ -5,7 +5,6 @@
 lst = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
 lst.remove('pluto')
 first_three = lst[:3]
-
 A. I.
 
 #2.-seqmut-1-4: What will be the value of a after the following code has executed?

@@ -50,6 +50,7 @@ if 'whole' in nested:
     whole = True
 else:
     whole = False
+
 # Check to see if the string 'physics' is a key in the dictionary nested. If it is, assign to the variable physics, the value of True, otherwise False.
 if 'physics' in nested:
     physics = True

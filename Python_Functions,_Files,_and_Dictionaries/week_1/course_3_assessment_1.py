@@ -30,8 +30,7 @@ test2 = [5, 8, 7] in L
 test3 = 6.6 in L[2]
  
 # 4. Provided is a nested data structure. Follow the instructions in the comments below. Do not hard code.
- 
-nested = {'data': ['finding', 23, ['exercises', 'hangout', 34]], 'window': ['part', 'whole', [], 'sum', ['math', 'calculus', 'algebra', 'geometry', 'statistics',['physics', 'chemistry', 'biology']]]}
+ nested = {'data': ['finding', 23, ['exercises', 'hangout', 34]], 'window': ['part', 'whole', [], 'sum', ['math', 'calculus', 'algebra', 'geometry', 'statistics',['physics', 'chemistry', 'biology']]]}
  
 # Check to see if the string data is a key in nested, if it is, assign True to the variable data, otherwise assign False.
 if 'data' in nested:

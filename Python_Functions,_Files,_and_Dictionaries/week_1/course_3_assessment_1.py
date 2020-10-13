@@ -73,6 +73,7 @@ v1 = sports['swimming'][2]
 
 # Assign the string 'platform' to the name v2
 v2 = sports['diving'][1]
+
 # Assign the list ['vault', 'floor', 'uneven bars', 'balance beam'] to the name v3
 v3 = sports['gymnastics']['women']
 # Assign the string 'rings' to the name v4

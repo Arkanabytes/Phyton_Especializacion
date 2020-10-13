@@ -38,6 +38,7 @@ if 'data' in nested:
     data = True
 else:
     data = False
+
 # Check to see if the integer 24 is in the value of the key data, if it is then assign to the variable twentyfour the value of True, otherwise False.
 if 24 in nested:
     twentyfour = True

@@ -44,6 +44,7 @@ if 24 in nested:
     twentyfour = True
 else:
     twentyfour = False
+
 # Check to see that the string 'whole' is not in the value of the key window. If it's not, then assign to the variable whole the value of True, otherwise False.
 if 'whole' in nested:
     whole = True

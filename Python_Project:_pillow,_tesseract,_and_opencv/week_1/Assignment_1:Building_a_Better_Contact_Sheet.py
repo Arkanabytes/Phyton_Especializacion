@@ -32,8 +32,7 @@ for i,img in enumerate(images):
     # Lets paste the current image into the contact sheet
     contact_sheet.paste(img, (x, y) )
     draw_img.text((x,y+first_image.height+5), lables[i], font=txt_font)
-    # Now we update our X position. If it is going to be the width of the image, then we set it to 0
-    # and update Y as well to point to the next "line" of the contact sheet.
+    # Now we update our X position. If it is going to be the width of the image, then we set it to 0 and update Y as well to point to the next "line" of the contact sheet.
     if x+first_image.width == contact_sheet.width:
         x=0
         y=y+first_image.height+75

@@ -47,7 +47,6 @@ display(contact_sheet)
 
 
 #############################
-
 import PIL
 from PIL import Image
 from PIL import ImageDraw

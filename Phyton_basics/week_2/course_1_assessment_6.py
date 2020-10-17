@@ -64,6 +64,7 @@ avg_temp=avg_temp/len(temperature)
 
 print(avg_temp)
 
+
 #7.-Write code to create a list of numbers from 0 to 67 and assign that list to the variable nums. Do not hard code the list.
 # Answer
 nums=list(range(68))

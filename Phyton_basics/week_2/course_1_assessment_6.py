@@ -47,6 +47,7 @@ for num in numbers:
     sum_val=sum_val+int(num)
 print(sum_val)
 
+
 #6.-week_temps_f is a string with a list of fahrenheit temperatures separated by the , sign. Write code that uses the accumulation pattern to compute the average 
 #(sum divided by number of items) and assigns it to avg_temp. Do not hard code your answer (i.e., make your code compute both the sum or the number of items in 
 #week_temps_f) (You should use the .split(",") function to split by "," and float() to cast to a float).

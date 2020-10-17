@@ -21,6 +21,7 @@ str_list = ["hello", "", "goodbye", "wonderful", "I love Python"]
 for element in str_list:
     print(len(element))
 
+    
 #4.-Write code to count the number of characters in original_str using the accumulation pattern and assign the answer to a variable num_chars. 
 Do NOT use the len function to solve the problem (if you use it while you are working on this problem, comment it out afterward!)
 

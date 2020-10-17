@@ -81,7 +81,6 @@ for word in words:
 print(num_words_list)
 
 #Create an empty string and assign it to the variable lett. Then using range, write code such that when your code is run, lett has 7 b’s ("bbbbbbb").
-
 #Answer
 lett=""
 

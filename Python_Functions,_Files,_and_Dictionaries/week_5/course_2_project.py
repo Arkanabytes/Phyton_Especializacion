@@ -112,7 +112,7 @@ def strip_punctuation(strWord):
         strWord = strWord.replace(charPunct, "")
     return strWord
 
-#################################################################
+#####################################################################
 
 projectTwitterDataFile = open("project_twitter_data.csv","r")
 resultingDataFile = open("resulting_data.csv","w")

@@ -33,6 +33,7 @@ def get_movies_from_tastedive(title):
 def extract_movie_titles(dic):
     return ([i['Name'] for i in dic['Similar']['Results']])
 
+
 # some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
 extract_movie_titles(get_movies_from_tastedive("Tony Bennett"))
 extract_movie_titles(get_movies_from_tastedive("Black Panther"))

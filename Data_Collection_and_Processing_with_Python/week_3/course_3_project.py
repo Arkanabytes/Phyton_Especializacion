@@ -17,7 +17,6 @@ get_movies_from_tastedive('Captain Marvel')
 get_movies_from_tastedive('Sherlock Holmes')
     
 #Please copy the completed function from above into this active code window. Next, you will need to write a function that extracts just the list of movie titles from a dictionary returned by get_movies_from_tastedive. Call it extract_movie_titles.
-
 import requests_with_caching
 import json
 

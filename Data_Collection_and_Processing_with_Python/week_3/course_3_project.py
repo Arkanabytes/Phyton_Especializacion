@@ -81,6 +81,7 @@ def get_movie_data(title):
 get_movie_data("Venom")
 get_movie_data("Baby Mama")
 
+
 ##Please copy the completed function from above into this active code window. Now write a function called get_movie_rating. It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoes rating as an integer. For example, if given the OMDB dictionary for “Black Panther”, it would return 97. If there is no Rotten Tomatoes rating, return 0.
 import requests_with_caching
 import json

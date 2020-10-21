@@ -39,6 +39,7 @@ def extract_movie_titles(dic):
 extract_movie_titles(get_movies_from_tastedive("Tony Bennett"))
 extract_movie_titles(get_movies_from_tastedive("Black Panther"))
 
+
 ####Please copy the completed functions from the two code windows above into this active code window. Next, you’ll write a function, called get_related_titles. It takes a list of movie titles as input. It gets five related movies for each from TasteDive, extracts the titles for all of them, and combines them all into a single list. Don’t include the same movie twice.
 import requests_with_caching
 import json

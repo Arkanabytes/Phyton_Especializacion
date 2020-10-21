@@ -41,6 +41,7 @@ for word in sent2:
 acro=acro[:-2]
 print(acro)
 
+
 #4.-A palindrome is a phrase that, if reversed, would read the exact same. Write code that checks if p_phrase is a palindrome by reversing 
 #it and then checking if the reversed version is equal to the original. Assign the reversed version of p_phrase to the variable r_phrase so
 #that we can check your work.

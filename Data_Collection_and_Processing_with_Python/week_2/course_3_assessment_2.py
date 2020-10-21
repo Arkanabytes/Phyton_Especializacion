@@ -18,6 +18,7 @@ people = [('Snow', 'Jon'), ('Lannister', 'Cersei'), ('Stark', 'Arya'), ('Stark',
 first_names = [name[1]  for name in people]
 print(list(first_names))
 
+
 #Use list comprehension to create a list called lst2 that doubles each element in the list, lst.
 lst = [["hi", "bye"], "hello", "goodbye", [9, 2], 4]
 lst2 =  [word*2  for word in lst]

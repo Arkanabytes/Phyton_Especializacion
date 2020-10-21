@@ -68,6 +68,7 @@ sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 
  
 # Assign the string 'backstroke' to the name v1
 v1 = sports['swimming'][2]
+
 # Assign the string 'platform' to the name v2
 v2 = sports['diving'][1]
 

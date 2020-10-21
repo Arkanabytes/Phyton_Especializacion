@@ -11,6 +11,7 @@ for score in scores2:
         a_scores+=1       
 print(a_scores)
 
+
 #2.-Write code that uses the string stored in org and creates an acronym which is assigned to the variable acro. 
 #Only the first letter of each word should be used, each letter in the acronym should be a capital letter, and there should 
 #be nothing to separate the letters of the acronym. Words that should not be included in the acronym are stored in the list stopwords. 

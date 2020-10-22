@@ -24,6 +24,7 @@ def g(k,d):
 ks = medals.keys()
 top_three = sorted(ks,key=lambda x : g(x,medals),reverse = True)[:3]   
 
+
 #We have provided the dictionary groceries. You should return a list of its keys, but they should be sorted by their values, from highest to lowest. Save the new 
 #list as most_needed.
 most_needed = []

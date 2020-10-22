@@ -60,7 +60,7 @@ writeInDataFile(resultingDataFile)
 projectTwitterDataFile.close()
 resultingDataFile.close()
 
-#######################################################################
+#-------------------------------------------------------------------------------------------------------------------------------------#
 
 punctuation_chars = ["'", '"', ",", ".", "!", ":", ";", '#', '@']
 # list of positive words to use

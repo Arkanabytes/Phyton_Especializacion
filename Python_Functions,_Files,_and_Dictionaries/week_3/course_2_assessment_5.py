@@ -18,6 +18,7 @@ olymp = ('Rio', 'Brazil', 2016)
 (city,country,year) = olymp
 print(city)
 
+
 #Define a function called info with five parameters: name, gender, age, bday_month, and hometown. The function should then return a tuple with all five parameters in that order.
 def info(a,b,c,d,e):
     name = a

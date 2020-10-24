@@ -44,7 +44,6 @@ contact_sheet = contact_sheet.resize((int(contact_sheet.width/2),int(contact_she
 display(contact_sheet)
 
 
-
 #############################
 import PIL
 from PIL import Image

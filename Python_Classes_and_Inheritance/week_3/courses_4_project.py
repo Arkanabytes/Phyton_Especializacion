@@ -21,7 +21,7 @@ class WOFPlayer():
         return state
 
     
-    # Write the WOFHumanPlayer class definition (part B) here
+# Write the WOFHumanPlayer class definition (part B) here
 class WOFHumanPlayer(WOFPlayer):
     def getMove(category, obscuredPhrase, guessed):
         str = input(self.name + "has $"+ str(self.prizeMoney)+ "/n" + ", Category:" + category + "/n" + ", Phrases:" + "/n" + obscuredPhrase + "/n" + ", Guessed:" + guessed + "/n" + "Guess a letter, phrase, or type 'exit' or 'pass':") 

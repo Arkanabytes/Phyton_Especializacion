@@ -20,6 +20,7 @@ class WOFPlayer():
         state = self.name + " ($" + str(self.prizeMoney) + ")"
         return state
 
+    
     # Write the WOFHumanPlayer class definition (part B) here
 class WOFHumanPlayer(WOFPlayer):
     def getMove(category, obscuredPhrase, guessed):
